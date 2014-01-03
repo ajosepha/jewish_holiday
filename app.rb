@@ -12,7 +12,7 @@ module Name
     get '/' do
       @test = Birthday.new
 
-      erb :bday
+      haml :bday
     end
 
   
